@@ -16,7 +16,7 @@ const qtdPessoas = Number(prompt("Quantas pessoas serao digitadas?: "));
 
 for (let i = 0; i < qtdPessoas; i++) {
     p++
-    console.log("Dados da " + p +"a" + " pessoa: ");
+    console.log("Dados da " + p +"º" + " pessoa: ");
 
     const n = String(prompt("Nome: "));
     const id = Number(prompt("Idade: "));
